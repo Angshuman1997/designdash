@@ -6,7 +6,7 @@ import BoxObject from "./BoxObject";
 function App() {
   return (
     <div className="App">
-      <h1 className="header">DesignDash</h1>
+      <h1 className="header">DashDesigns</h1>
       <div className="main">
         {Object.keys(uiData).map((key, index) => (
           <div className="card-container" key={`${uiData[key].title}-${index}`}>
